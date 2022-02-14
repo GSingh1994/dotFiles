@@ -1,0 +1,228 @@
+[Connections]
+first-run=false
+
+[Weather]
+locations=[<(uint32 2, <('Winnipeg', 'CYWG', true, [(0.87091929674517032, -1.6970418035380554)], [(0.87062840271874053, -1.695878262338921)])>)>]
+
+[control-center]
+last-panel='bluetooth'
+
+[desktop/app-folders]
+folder-children=['Utilities', 'YaST']
+
+[desktop/app-folders/folders/Utilities]
+apps=['gnome-abrt.desktop', 'gnome-system-log.desktop', 'nm-connection-editor.desktop', 'org.gnome.baobab.desktop', 'org.gnome.Connections.desktop', 'org.gnome.DejaDup.desktop', 'org.gnome.Dictionary.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.eog.desktop', 'org.gnome.Evince.desktop', 'org.gnome.FileRoller.desktop', 'org.gnome.fonts.desktop', 'org.gnome.seahorse.Application.desktop', 'org.gnome.tweaks.desktop', 'org.gnome.Usage.desktop', 'vinagre.desktop']
+categories=['X-GNOME-Utilities']
+name='X-GNOME-Utilities.directory'
+translate=true
+
+[desktop/app-folders/folders/YaST]
+categories=['X-SuSE-YaST']
+name='suse-yast.directory'
+translate=true
+
+[desktop/background]
+picture-options='zoom'
+picture-uri='file:///usr/share/backgrounds/fedora-workstation/cherryblossom.jpg'
+primary-color='#000000000000'
+secondary-color='#000000000000'
+
+[desktop/input-sources]
+current=uint32 0
+per-window=false
+sources=[('xkb', 'us')]
+xkb-options=@as []
+
+[desktop/interface]
+clock-format='12h'
+cursor-theme='breeze_cursors'
+enable-hot-corners=false
+font-antialiasing='grayscale'
+font-hinting='slight'
+font-name='Cantarell 13'
+gtk-im-module='gtk-im-context-simple'
+gtk-theme='Adwaita-dark'
+icon-theme='Papirus-Dark'
+show-battery-percentage=true
+toolkit-accessibility=false
+
+[desktop/notifications]
+application-children=['gnome-network-panel', 'google-chrome']
+
+[desktop/notifications/application/gnome-network-panel]
+application-id='gnome-network-panel.desktop'
+
+[desktop/notifications/application/google-chrome]
+application-id='google-chrome.desktop'
+
+[desktop/peripherals/touchpad]
+tap-to-click=true
+two-finger-scrolling-enabled=true
+
+[desktop/privacy]
+disable-camera=true
+disable-microphone=false
+recent-files-max-age=30
+remove-old-temp-files=true
+report-technical-problems=false
+
+[desktop/screensaver]
+lock-delay=uint32 0
+picture-options='zoom'
+picture-uri='file:///usr/share/backgrounds/fedora-workstation/cherryblossom.jpg'
+primary-color='#000000000000'
+secondary-color='#000000000000'
+
+[desktop/search-providers]
+disabled=['org.gnome.Contacts.desktop', 'org.gnome.Boxes.desktop', 'org.gnome.Characters.desktop', 'org.gnome.clocks.desktop', 'org.gnome.Software.desktop']
+sort-order=['org.gnome.Contacts.desktop', 'org.gnome.Documents.desktop', 'org.gnome.Nautilus.desktop']
+
+[desktop/session]
+idle-delay=uint32 300
+
+[desktop/sound]
+event-sounds=true
+theme-name='__custom'
+
+[desktop/wm/keybindings]
+close=['<Super>w']
+move-to-workspace-left=['<Alt><Super>Left']
+move-to-workspace-right=['<Alt><Super>Right']
+switch-to-workspace-left=['<Primary><Super>Left']
+switch-to-workspace-right=['<Primary><Super>Right']
+
+[desktop/wm/preferences]
+action-middle-click-titlebar='minimize'
+
+[evolution-data-server]
+migrated=true
+network-monitor-gio-name=''
+
+[gedit/plugins]
+active-plugins=['spell', 'sort', 'openlinks', 'modelines', 'filebrowser', 'docinfo']
+
+[gedit/plugins/filebrowser]
+root='file:///'
+tree-view=true
+virtual-root='file:///usr/bin'
+
+[gedit/preferences/ui]
+show-tabs-mode='auto'
+
+[gnome-system-monitor]
+current-tab='processes'
+maximized=false
+network-total-in-bits=false
+show-dependencies=false
+show-whose-processes='user'
+window-state=(809, 640, 26, 23)
+
+[gnome-system-monitor/disktreenew]
+col-6-visible=true
+col-6-width=0
+
+[gnome-system-monitor/proctree]
+columns-order=[0, 1, 2, 3, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
+sort-col=15
+sort-order=0
+
+[login-screen]
+enable-fingerprint-authentication=true
+enable-password-authentication=true
+enable-smartcard-authentication=false
+
+[maps]
+last-viewed-location=[33.906083054932907, -84.825342374089615]
+map-type='MapsStreetSource'
+transportation-type='pedestrian'
+window-maximized=true
+zoom-level=19
+
+[mutter]
+center-new-windows=true
+
+[nautilus/preferences]
+default-folder-viewer='icon-view'
+search-filter-time-type='last_modified'
+
+[nautilus/window-state]
+initial-size=(890, 550)
+maximized=false
+
+[settings-daemon/plugins/color]
+night-light-enabled=true
+
+[settings-daemon/plugins/media-keys]
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/']
+home=['<Super>e']
+
+[settings-daemon/plugins/media-keys/custom-keybindings/custom0]
+binding='<Alt>period'
+command='gnome-terminal'
+name='gnome-terminal'
+
+[settings-daemon/plugins/power]
+sleep-inactive-ac-timeout=3600
+sleep-inactive-ac-type='nothing'
+
+[shell]
+app-picker-layout=[{'org.gnome.Contacts.desktop': <{'position': <0>}>, 'org.gnome.Weather.desktop': <{'position': <1>}>, 'org.gnome.clocks.desktop': <{'position': <2>}>, 'org.gnome.Maps.desktop': <{'position': <3>}>, 'org.gnome.Photos.desktop': <{'position': <4>}>, 'org.gnome.Totem.desktop': <{'position': <5>}>, 'org.fedoraproject.MediaWriter.desktop': <{'position': <6>}>, 'org.gnome.Calculator.desktop': <{'position': <7>}>, 'org.gnome.gedit.desktop': <{'position': <8>}>, 'simple-scan.desktop': <{'position': <9>}>, 'gnome-control-center.desktop': <{'position': <10>}>, 'gnome-system-monitor.desktop': <{'position': <11>}>, 'org.gnome.Boxes.desktop': <{'position': <12>}>, 'org.gnome.Terminal.desktop': <{'position': <13>}>, 'Utilities': <{'position': <14>}>, 'yelp.desktop': <{'position': <15>}>, 'org.gnome.Cheese.desktop': <{'position': <16>}>}, {'libreoffice-calc.desktop': <{'position': <0>}>, 'libreoffice-impress.desktop': <{'position': <1>}>, 'libreoffice-writer.desktop': <{'position': <2>}>, 'rhythmbox.desktop': <{'position': <3>}>, 'org.gnome.Tour.desktop': <{'position': <4>}>}]
+favorite-apps=['org.gnome.Calendar.desktop', 'org.gnome.Nautilus.desktop', 'google-chrome.desktop', 'chrome-hjdnofmnopcmechpfajckbmghdfjihfm-Default.desktop']
+had-bluetooth-devices-setup=false
+welcome-dialog-last-shown-version='41.0'
+
+[shell/app-switcher]
+current-workspace-only=true
+
+[shell/weather]
+automatic-location=true
+locations=[<(uint32 2, <('Winnipeg', 'CYWG', true, [(0.87091929674517032, -1.6970418035380554)], [(0.87062840271874053, -1.695878262338921)])>)>]
+
+[shell/world-clocks]
+locations=@av []
+
+[software]
+check-timestamp=int64 1644804805
+download-updates=false
+download-updates-notify=false
+first-run=false
+
+[system/location]
+enabled=false
+
+[terminal/legacy/keybindings]
+close-tab='<Primary>w'
+copy='<Primary>c'
+new-tab='<Primary>t'
+new-window='<Primary>n'
+paste='<Primary>v'
+
+[terminal/legacy/profiles:]
+list=['b32e4fa9-72d9-46a2-95ad-a8203add52e3']
+
+[terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+default-size-columns=87
+
+[terminal/legacy/profiles:/:b32e4fa9-72d9-46a2-95ad-a8203add52e3]
+allow-bold=true
+audible-bell=false
+background-color='#202021212424'
+bold-color='#E8E8EAEAEDED'
+bold-color-same-as-fg=true
+cursor-background-color='#E8E8EAEAEDED'
+cursor-colors-set=true
+cursor-foreground-color='#202021212424'
+default-size-columns=102
+default-size-rows=25
+font='MesloLGS NF 15'
+foreground-color='#E8E8EAEAEDED'
+palette=['#202021212424', '#EAEA43433535', '#3434A8A85353', '#FBFBBCBC0404', '#42428585F4F4', '#A1A14242F4F4', '#2424C1C1E0E0', '#E8E8EAEAEDED', '#5F5F63636868', '#EAEA43433535', '#3434A8A85353', '#FBFBBCBC0505', '#42428585F4F4', '#A1A14242F4F4', '#2424C1C1E0E0', '#FFFFFFFFFFFF']
+scrollbar-policy='never'
+use-system-font=false
+use-theme-background=false
+use-theme-colors=false
+use-theme-transparency=false
+visible-name='Google Dark'
+
+[tweaks]
+show-extensions-notice=false
